@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyCard</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/MyStyleSheet.css" />
+    <script src="~/js/site.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    @*<link type="text/css" rel="stylesheet" href="~/lib/lightslider/css/lightslider.css" />*@
+    @*<script src="~/lib/lightslider/js/lightslider.js"></script>*@
+</head>
+<body>
+    <header>
+        <nav class=" navbar-expand-sm navbar-toggleable-sm blackBG ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-center p-2 text-white border border-light">  <a class="navbar-brand text-white">MyCard</a></div>
+                    <div class="col-md-3 text-center p-2 text-white border border-light">  <a class="navbar-brand linkFormat" href="http://localhost:26741#hobby">Hobby</a></div>
+                    <div class="col-md-3 text-center p-2 text-white border border-light">  <a class="navbar-brand linkFormat" href="http://localhost:26741#rss">Star News</a></div>
+                    <div class="col-md-3 text-center p-2 text-white border border-light">  <a class="navbar-brand linkFormat" href="http://localhost:26741#mapSaber">Map</a></div>
+                </div>  
+            </div>
+        </nav>
+    </header>
+        <main role="main">
+            @RenderBody()
+        </main>
+
+
+    <footer class="border-top border-light footer text-muted">
+        <div class="container">
+            &copy; 2021 - MyCard - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

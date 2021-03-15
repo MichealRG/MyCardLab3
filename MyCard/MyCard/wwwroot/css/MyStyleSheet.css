@@ -1,0 +1,229 @@
+﻿body {
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+}
+
+.centerOnBigRes {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.myTiles:hover {
+    /*transform: scale(1.05);*/
+    font-size: 17px;
+}
+/*.vertical-center {
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}*/
+.paddingTopBot-8 {
+    padding: 8px 0px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.marginTopBot {
+    margin: 4px;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+a.linkFormat:link {
+    color: white;
+}
+
+a.linkFormat:visited {
+    color: yellow;
+}
+
+a.linkFormat:hover {
+    color: red;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.blackBG {
+    background-color: black;
+    color: white;
+}
+
+img.myTiles:hover {
+    width: 110%;
+}
+
+/*Slider classes*/
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid-my {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+.fade-my {
+    -webkit-animation-name: fade-my;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade-my;
+    animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade-my {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade-my {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/*image effects*/
+radio-btns {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(3, 100px);
+}
+
+.radio-btns:hover .radio-btns__btn:not(:hover) {
+    filter: grayscale(100%);
+}
+
+    .radio-btns:hover .radio-btns__btn:not(:hover)::after {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+@media (min-width: 30rem) {
+    .radio-btns {
+        grid-template-columns: repeat(3, 150px);
+    }
+}
+
+.radio-btns__btn {
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .radio-btns__btn::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        transition: 0.3s;
+    }
+
+    .radio-btns__btn img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }

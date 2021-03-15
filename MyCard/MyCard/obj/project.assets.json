@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CodeHollow.FeedReader/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/CodeHollow.FeedReader.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/CodeHollow.FeedReader.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeHollow.FeedReader/1.2.1": {
+      "sha512": "srcYPMAfEWzwlGUESqpu+ktWTPekUiv9HHOTUIzDjcQHxVTr+bdHL8L4835PLetGNBs3Rp75xCOhVoQy99eXDQ==",
+      "type": "package",
+      "path": "codehollow.feedreader/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "codehollow.feedreader.1.2.1.nupkg.sha512",
+        "codehollow.feedreader.nuspec",
+        "lib/net452/CodeHollow.FeedReader.dll",
+        "lib/netcoreapp2.1/CodeHollow.FeedReader.dll",
+        "lib/netcoreapp2.1/CodeHollow.FeedReader.xml",
+        "lib/netstandard1.3/CodeHollow.FeedReader.dll",
+        "lib/netstandard1.3/CodeHollow.FeedReader.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CodeHollow.FeedReader >= 1.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Michał\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Paulpit2\\ProgramowanieDlaInternetu\\Lab3\\MyVisitowka\\MyCard\\MyCard\\MyCard.csproj",
+      "projectName": "MyCard",
+      "projectPath": "D:\\Paulpit2\\ProgramowanieDlaInternetu\\Lab3\\MyVisitowka\\MyCard\\MyCard\\MyCard.csproj",
+      "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
+      "outputPath": "D:\\Paulpit2\\ProgramowanieDlaInternetu\\Lab3\\MyVisitowka\\MyCard\\MyCard\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\NuGetPackages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "CodeHollow.FeedReader": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

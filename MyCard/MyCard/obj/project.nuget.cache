@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "066P+gxP1UslHSvB+ZF/PeoHRRJiMOKAOCytHtNsXMNI2GJFDyIbxWjO231EmClLPBHit80J+njK/btCVV3VKg==",
+  "success": true,
+  "projectFilePath": "D:\\Paulpit2\\ProgramowanieDlaInternetu\\Lab3\\MyVisitowka\\MyCard\\MyCard\\MyCard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Michał\\.nuget\\packages\\codehollow.feedreader\\1.2.1\\codehollow.feedreader.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
